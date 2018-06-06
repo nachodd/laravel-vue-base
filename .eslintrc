@@ -1,0 +1,28 @@
+{
+  "root": true,
+  // 'parser': 'vue-eslint-parser',
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "extends": [
+    "plugin:vue/recommended",
+    "@vue/standard"
+  ],
+  "rules": {
+    "vue/no-multi-spaces": 2,
+    "vue/max-attributes-per-line": "off",
+    "comma-dangle": "off"
+  },
+  "globals": {
+    "$": true,
+    "jQuery": true,
+    "_": true,
+    "axios": true
+  },
+  // "plugins": [
+  //   // "html",
+  //   "vue"
+  // ]
+}
